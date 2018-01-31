@@ -1,0 +1,10 @@
+d:\Program Files\Studies\ParkApp\ParkService\bin\Debug\netcoreapp2.0\ParkService.deps.json
+d:\Program Files\Studies\ParkApp\ParkService\bin\Debug\netcoreapp2.0\ParkService.runtimeconfig.json
+d:\Program Files\Studies\ParkApp\ParkService\bin\Debug\netcoreapp2.0\ParkService.runtimeconfig.dev.json
+d:\Program Files\Studies\ParkApp\ParkService\bin\Debug\netcoreapp2.0\ParkService.dll
+d:\Program Files\Studies\ParkApp\ParkService\bin\Debug\netcoreapp2.0\ParkService.pdb
+d:\Program Files\Studies\ParkApp\ParkService\obj\Debug\netcoreapp2.0\ParkService.csproj.CoreCompileInputs.cache
+d:\Program Files\Studies\ParkApp\ParkService\obj\Debug\netcoreapp2.0\ParkService.AssemblyInfoInputs.cache
+d:\Program Files\Studies\ParkApp\ParkService\obj\Debug\netcoreapp2.0\ParkService.AssemblyInfo.cs
+d:\Program Files\Studies\ParkApp\ParkService\obj\Debug\netcoreapp2.0\ParkService.dll
+d:\Program Files\Studies\ParkApp\ParkService\obj\Debug\netcoreapp2.0\ParkService.pdb

@@ -1,0 +1,10 @@
+d:\Program Files\Studies\ParkApp\LoginService\bin\Debug\netcoreapp2.0\LoginService.deps.json
+d:\Program Files\Studies\ParkApp\LoginService\bin\Debug\netcoreapp2.0\LoginService.runtimeconfig.json
+d:\Program Files\Studies\ParkApp\LoginService\bin\Debug\netcoreapp2.0\LoginService.runtimeconfig.dev.json
+d:\Program Files\Studies\ParkApp\LoginService\bin\Debug\netcoreapp2.0\LoginService.dll
+d:\Program Files\Studies\ParkApp\LoginService\bin\Debug\netcoreapp2.0\LoginService.pdb
+d:\Program Files\Studies\ParkApp\LoginService\obj\Debug\netcoreapp2.0\LoginService.csproj.CoreCompileInputs.cache
+d:\Program Files\Studies\ParkApp\LoginService\obj\Debug\netcoreapp2.0\LoginService.AssemblyInfoInputs.cache
+d:\Program Files\Studies\ParkApp\LoginService\obj\Debug\netcoreapp2.0\LoginService.AssemblyInfo.cs
+d:\Program Files\Studies\ParkApp\LoginService\obj\Debug\netcoreapp2.0\LoginService.dll
+d:\Program Files\Studies\ParkApp\LoginService\obj\Debug\netcoreapp2.0\LoginService.pdb

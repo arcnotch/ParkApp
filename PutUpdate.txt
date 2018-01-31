@@ -1,0 +1,31 @@
+http://csharp2json.azurewebsites.net/
+
+
+{ 
+  "_id": "Park7",
+  "_rev": null,
+  "Name": "Yarden",
+  "Size": 1,
+  "Floors": 1,
+  "Rows": 1,
+  "Cells": 0,
+  "X": 0.0,
+  "Y": 0.0,
+  "Price": 0.0,
+  "Slots": [[[{
+  "_id": "1",
+  "Spot": true,
+  "Price": 5.0,
+  "X": 0.0,
+  "Y": 0.0
+},
+              {
+  "_id": "2",
+  "Spot": false,
+  "Price": 7.0,
+  "X": 0.0,
+  "Y": 0.0
+}
+             ]]],
+  "Owner_id": null
+}

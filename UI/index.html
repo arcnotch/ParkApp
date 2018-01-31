@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="script/scripts.js"></script>
+        <title>ParkApp</title>
+    </head>
+    <body>
+        
+        <div style="border: 1px solid">
+        <h1>Login</h1>
+        <form name="frm1" id="frm2" method="post" action="#">
+        	<input type="text" id="uname" placeholder="Username"></input>
+        	<input type="password" id="passw" placeholder="Password"></input>
+			<br/>
+        	<input type="button" onclick="submitForm('http://127.0.0.1:5001/CreateUser')" value='Register'/>
+        	<input type="button" onclick="submitForm('http://127.0.0.1:5001/UserLogin')" value='Login'/>
+        	<br/>
+			<a id=loginstatus></a>
+        </form>
+        
+       	<a href="javascript:jsonSerialze()">click me to see how the json looks like</a>
+        </div>
+
+        <div style="border: 1px solid">
+        <h1>Park Functions</h1>
+        <form name="frm1" id="frm2" method="post" action="#">
+        	<input type="text" id="parkid" placeholder="ID"></input>
+			<input type="hidden" value='' id="parkrev"></input>
+        	<input type="text" id="ParkName" placeholder="Name" value="Name"></input>
+			<br/>
+			<input type="number" id="ParkSize" placeholder="Size" value='0'></input>
+			<input type="number" id="ParkFloors" placeholder="Floors" value='0'></input>
+			<input type="number" id="ParkRows" placeholder="Rows" value='0'></input>
+			<input type="number" id="ParkCells" placeholder="Columns" value='0'></input>
+			<br/>
+			<input type="number" id="ParkX" placeholder="X location" value='0.0'></input>
+			<input type="number" id="ParkY" placeholder="Y location" value='0.0'></input>
+			<br/>
+        	<input type="button" onclick="SendPark('http://127.0.0.1:5000/CreatePark','POST')" value='Create'/>
+        	<input type="button" onclick="SendPark('http://127.0.0.1:5000/Update','PUT')" value='Update'/>
+			<br/>
+        	<a id=parkstatus></a>
+        </form>
+        
+       	<a href="javascript:jsonSerialze()">click me to see how the json looks like</a>
+        </div>     
+
+        <div style="border: 1px solid">
+        <h1>Park's free spots</h1>
+        <form name="frm1" id="frm2" method="get" action="#">
+        	<input type="text" id="parknameEmpty" placeholder="Park name"></input>
+			<br/>
+        	<input type="button" onclick="getParkSpots('http://127.0.0.1:5000/GetPark')" value='Get spots'/>
+			<br/>
+        	<a id=parkEmpties></a>
+        </form>
+        
+       	<a href="javascript:jsonSerialze()">click me to see how the json looks like</a>
+        </div>   		
+    </body>
+</html>
